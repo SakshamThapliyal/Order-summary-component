@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Order summary card</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+  <div class="Container">
+    <div class="image">
+      <img src="./images/illustration-hero.svg" alt="main image">
+    </div>
+    <div class="text-area">
+      <h2>Order Summary</h2>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!</p>
+    </div>
+    <div class="plan">
+      <div><img src="./images/icon-music.svg" alt="music icon"></div>
+      <p value="1">Annual Plan</p>
+      <p value="2">$59.99/year</p>
+      <p value="3"><a href="#">Change</a></p>
+    </div>
+    <button class="Payment" onclick="letPay()">Proceed to Payment</button>
+    <button class="cancel-order" onclick="cancelPay()">Cancel Order</button>
+  </div>
+  <script>
+    function letPay(){
+      alert("Enjoy your Music..")
+    }
+    function cancelPay(){
+      alert(" Your Order is cancelled..")
+    }
+  </script>
+</body>
+
+</html>
